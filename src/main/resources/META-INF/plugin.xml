@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>code-analyzer</id>
+    <name>code-analyzer</name>
+    <vendor email="volodyk.99@mail.ru">Korolikhin Vladimir</vendor>
+
+    <description><![CDATA[
+    An IntelliJ IDEA plugin that allows to analyze a selected section of code in an editor
+    ]]></description>
+
+
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+        <action id="your.actions.id" class="action.AnalyzeAction"
+                text="Analyze code" description="Analyze selected code" icon="AnalyzeIcons.Analyze_icon">
+            <add-to-group group-id="ToolbarRunGroup" anchor="first" />
+        </action>
+    </actions>
+</idea-plugin>

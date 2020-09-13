@@ -5,15 +5,15 @@ An IntelliJ IDEA plugin that allows to analyze a selected section of code in an 
 The plugin creates a special button in Tool bar for quick navigation.
 
 ## Installation
-Prerequisites
-* Currently plugin is available only for **Linux** and **Mac**
+
+* **Linux** / **Mac**
 * JDK 8
 
-### Install from disk (need the .jar)
+### Install from disk
 * ```cd code-analyzer```
-* Build .jar ```./gradlew jar``` 
+* ```./gradlew jar``` 
 * Go to ```Settings-> Plugins-> Install plugin from disk```
-* Locate and select result .jar from the first step
+* Select .jar from the second step
 * Restart IntelliJ IDEA
 
 ## How to use

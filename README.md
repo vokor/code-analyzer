@@ -1,6 +1,6 @@
 # code-analyzer
 
-An IntelliJ IDEA plugin that allows to analyze a selected section of code in an editor. Plugin can get Abstract syntax tree (AST), the number of declared variables, the number of calls to variable values, and the number of exceptions thrown. The goal of the plugin is to explore the internal structure of your source code.
+An IntelliJ IDEA plugin that allows to analyze a selected section of code (**Java language only**)in an editor. Plugin can get Abstract syntax tree (AST), the number of declared variables, the number of calls to variable values, and the number of exceptions thrown. The goal of the plugin is to explore the internal structure of your source code.
 
 The plugin creates a special button in Tool bar for quick navigation.
 
